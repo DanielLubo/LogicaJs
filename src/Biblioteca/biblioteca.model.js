@@ -9,7 +9,7 @@ export class Biblioteca{
         const nuevoLibro = new Libro(titulo, autor);
 
         this.coleccion.push(nuevoLibro);
-        console.log(`✅ Libro creado y agregado: "${titulo}" (ID: ${nuevoLibro.id})`);
+        console.log(`Libro creado y agregado: "${titulo}" (ID: ${nuevoLibro.id})`);
         return nuevoLibro;
     }
 
